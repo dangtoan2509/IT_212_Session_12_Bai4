@@ -1,0 +1,10 @@
+Sử dụng AI, hãy thực hiện các yêu cầu sau dựa trên mã nguồn API Mở tài khoản cơ bản ở Bài 03:
+
+1. Sinh Test Case: Phân tích các trường fullName, email, phone, citizenId trong AccountRegistrationRequest. Sinh danh sách Test Case dạng bảng bao gồm:
+   - Positive Test Case: Các trường hợp hợp lệ.
+   - Negative Test Case: Các trường hợp lỗi (để trống, sai định dạng, trùng lặp...).
+   - Boundary Test Case: Các trường hợp biên (chuỗi quá dài/quá ngắn).
+
+2. Sinh Dữ liệu kiểm thử (Mock Data): Sinh 50 dòng dữ liệu giả lập dưới định dạng CSV chứa thông tin khách hàng ngẫu nhiên nhưng phải khớp với định dạng Việt Nam (tên VN, đầu số điện thoại VN hợp lệ, email, CCCD 12 số hợp lệ).
+
+3. Sinh mã Unit Test: Dựa vào code Service/Controller, viết các class JUnit Test (sử dụng thêm Mockito) để test luồng Đăng ký tài khoản (bao gồm AccountServiceImplTest và AccountControllerTest).
